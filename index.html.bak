@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Map</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://www.amcharts.com/lib/3/ammap.js"></script>
+    <script src="https://www.amcharts.com/lib/3/maps/js/usaLow.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+
+</head>
+
+<body style="background-color:#4b5257">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" id="stateInput" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" id="addState" type="button">Search</button>
+        </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a> -->
+                    <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div> -->
+                <!-- </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="sr-only"></span></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+<<<<<<< HEAD
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<table>
+					
+							<td>State</td>
+							<td>POP</td>
+							<td>Births</td>
+							<td>Deaths</td>
+						
+						<tbody id="dataTable">
+=======
+    <div class="container-fluid m-2">
+        <div class="row pt-5">
+            <div id="news1" class="col-md-3">
+                <table class="mt-2">
+                    <td class="border border-dark">State</td>
+                    <td class="border border-dark">POP</td>
+                    <td class="border border-dark">Births</td>
+                    <td class="border border-dark">Deaths</td>
+                    <tbody id="dataTable">
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <div id="chartdiv"></div>
+            </div>
+            <div class="col-md-3" id="news">
+                <span class="blink_me">LIVE-NEWS</span>
+                <ul id="newsNew">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+>>>>>>> 9078fb89899a53b3d05cadfa28b062291ec45ebe
+
+    <div id="showData"></div>
+
+    <div style="background-color:#5a5151" class="footer">
+        <p>&copy; Copyright 2018 </p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
