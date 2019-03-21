@@ -1,9 +1,11 @@
 # first-project
 
 Description:
+
 This web site provides U.S. demographic information by state, and also povides daily news feedback to users.
 
 Technologies:
+
 jQuery, CSS and Bootstrap.
 
 Demo: 
